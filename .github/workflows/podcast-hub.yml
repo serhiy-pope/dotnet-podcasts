@@ -72,5 +72,5 @@ jobs:
         uses: Azure/webapps-deploy@v2
         with:
           app-name: ${{ secrets.HUB_WEBAPP_NAME }}
-          package: hub
+          package: web
 
